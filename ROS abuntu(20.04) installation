@@ -1,0 +1,12 @@
+بعدتنصيب النظام يتم نسخ الأوامر التالية في terminal
+\\ROS Kinetic ONLY supports Wily  (Ubuntu 20.04)
+sudo apt update  
+sudo apt upgrade  
+ros-desktop-full
+\\ ran this command to set-up ROS environment variable
+/opt/ros
+\\initialized rosdep
+sudo rosdep init
+rosdep update
+\\installed some tools and dependencies with this command
+sudo apt install python3-rosdep python3-rosinstall python3-rosinstall-generator python3-wstool build-essential
